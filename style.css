@@ -1,0 +1,39 @@
+html {
+  height: 100%;
+  width: 100%;
+  background: black;
+}
+
+h1, h2 {
+  color: white;
+}
+
+.box {
+  position: absolute;
+  width: 95px;
+  height: 95px;
+  object-fit: fill;
+  background: white;
+  border: 2px solid grey;
+  border-radius: 5px;
+}
+
+.icons {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  text-align: center;
+  text-decoration: none;  
+  color: black;
+  line-height: 400%;
+}
+
+
+.wrapper {
+  display: grid;
+  color: white;
+/*   background: white; */
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+  height: auto;
+}
